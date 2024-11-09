@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nike {
+    background-color: #F7F7F7;
+    padding: 10px;
+}
+
+#jordan, #con, #air, #search, #bag {
+    height: 30px;
+    width: 30px;
+}
+
+#vid {
+    width: 100%;
+    height: auto;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.normal {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.center, .centers, #click {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border: none;
+}
+
+#win .card-img-overlay {
+    bottom: 0;
+    top: auto;
+}
+
+.owl-carousel .owl-nav button {
+    width: 48px;
+    height: 48px;
+    background: white;
+    color: black;
+    font-size: 32px;
+    position: absolute;
+    top: calc(50% - 24px);
+    border-radius: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+}
+
+footer {
+    background-color: #F7F7F7;
+    padding: 20px;
+}
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer .footer-heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
+
+.footer .social-links .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer .social-links a {
+    font-size: 1.5rem;
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #fff;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .footer .footer-heading {
+        font-size: 1.1rem;
+    }
+
+    .footer ul li a {
+        font-size: 0.85rem;
+    }
+
+    .footer .social-links .list-inline-item {
+        margin: 0 8px;
+    }
+}
